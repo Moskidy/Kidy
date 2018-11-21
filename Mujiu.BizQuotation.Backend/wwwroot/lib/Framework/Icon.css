@@ -2,7 +2,7 @@
  * Title       : 图标样式表
  * Project     : 重庆木九科技商务报价平台前端框架
  * Version     : 1.0.0
- * Date        : 2018年10月22日 星期一
+ * Date        : 2018年11月21日 星期三
  * Developer   : 徐侃（Kidy）
  * Description : 定义了系统可用的图标样式，该样式表和相应的Css Sprite图片
                  由重庆木九科技前端优化工具生成
@@ -80,8 +80,6 @@
 .mu-icon-18-folder,
 .mu-icon-20-person,
 .mu-icon-24-list,
-.mu-icon-24-wrench,
-.mu-icon-32-refresh,
 .mu-icon-64-bulb,
 .mu-icon-64-error,
 .mu-icon-64-forbidden,
@@ -102,7 +100,7 @@
 .mu-icon-84x80-dataGather,
 .mu-icon-84x80-dataRearrange,
 .mu-icon-84x80-gear,
-.mu-icon-84x80-radar {background: transparent url(../../Image/Base/MuSpriteIcon.png) 0 0 no-repeat;display: inline-block;vertical-align: text-bottom;}
+.mu-icon-84x80-radar {background: transparent url(../../images/Framework/MuSpriteIcon.png) 0 0 no-repeat;display: inline-block;vertical-align: text-bottom;}
 
 .mu-icon-16-app { background-position: 0 0; height: 16px; width: 16px;}
 .mu-icon-16-briefcase { background-position: -16px 0; height: 16px; width: 16px;}
@@ -176,26 +174,24 @@
 .mu-icon-18-folder { background-position: 0 -32px; height: 18px; width: 18px;}
 .mu-icon-20-person { background-position: 0 -50px; height: 20px; width: 20px;}
 .mu-icon-24-list { background-position: 0 -70px; height: 24px; width: 24px;}
-.mu-icon-24-wrench { background-position: -24px -70px; height: 24px; width: 24px;}
-.mu-icon-32-refresh { background-position: 0 -94px; height: 32px; width: 32px;}
-.mu-icon-64-bulb { background-position: 0 -126px; height: 64px; width: 64px;}
-.mu-icon-64-error { background-position: -64px -126px; height: 64px; width: 64px;}
-.mu-icon-64-forbidden { background-position: -128px -126px; height: 64px; width: 64px;}
-.mu-icon-64-globe { background-position: -192px -126px; height: 64px; width: 64px;}
-.mu-icon-64-key { background-position: -256px -126px; height: 64px; width: 64px;}
-.mu-icon-64-lock { background-position: -320px -126px; height: 64px; width: 64px;}
-.mu-icon-64-magnifier { background-position: -384px -126px; height: 64px; width: 64px;}
-.mu-icon-64-ok { background-position: -448px -126px; height: 64px; width: 64px;}
-.mu-icon-64-question { background-position: -512px -126px; height: 64px; width: 64px;}
-.mu-icon-64-rss { background-position: -576px -126px; height: 64px; width: 64px;}
-.mu-icon-64-save { background-position: 0 -190px; height: 64px; width: 64px;}
-.mu-icon-64-shutdown { background-position: -64px -190px; height: 64px; width: 64px;}
-.mu-icon-64-star { background-position: -128px -190px; height: 64px; width: 64px;}
-.mu-icon-64-tab { background-position: -192px -190px; height: 64px; width: 64px;}
-.mu-icon-64-tabError { background-position: -256px -190px; height: 64px; width: 64px;}
-.mu-icon-64-warning { background-position: -320px -190px; height: 64px; width: 64px;}
-.mu-icon-84x80-code { background-position: 0 -254px; height: 80px; width: 84px;}
-.mu-icon-84x80-dataGather { background-position: -84px -254px; height: 80px; width: 84px;}
-.mu-icon-84x80-dataRearrange { background-position: -168px -254px; height: 80px; width: 84px;}
-.mu-icon-84x80-gear { background-position: -252px -254px; height: 80px; width: 84px;}
-.mu-icon-84x80-radar { background-position: -336px -254px; height: 80px; width: 84px;}
+.mu-icon-64-bulb { background-position: 0 -94px; height: 64px; width: 64px;}
+.mu-icon-64-error { background-position: -64px -94px; height: 64px; width: 64px;}
+.mu-icon-64-forbidden { background-position: -128px -94px; height: 64px; width: 64px;}
+.mu-icon-64-globe { background-position: -192px -94px; height: 64px; width: 64px;}
+.mu-icon-64-key { background-position: -256px -94px; height: 64px; width: 64px;}
+.mu-icon-64-lock { background-position: -320px -94px; height: 64px; width: 64px;}
+.mu-icon-64-magnifier { background-position: -384px -94px; height: 64px; width: 64px;}
+.mu-icon-64-ok { background-position: -448px -94px; height: 64px; width: 64px;}
+.mu-icon-64-question { background-position: -512px -94px; height: 64px; width: 64px;}
+.mu-icon-64-rss { background-position: -576px -94px; height: 64px; width: 64px;}
+.mu-icon-64-save { background-position: 0 -158px; height: 64px; width: 64px;}
+.mu-icon-64-shutdown { background-position: -64px -158px; height: 64px; width: 64px;}
+.mu-icon-64-star { background-position: -128px -158px; height: 64px; width: 64px;}
+.mu-icon-64-tab { background-position: -192px -158px; height: 64px; width: 64px;}
+.mu-icon-64-tabError { background-position: -256px -158px; height: 64px; width: 64px;}
+.mu-icon-64-warning { background-position: -320px -158px; height: 64px; width: 64px;}
+.mu-icon-84x80-code { background-position: 0 -222px; height: 80px; width: 84px;}
+.mu-icon-84x80-dataGather { background-position: -84px -222px; height: 80px; width: 84px;}
+.mu-icon-84x80-dataRearrange { background-position: -168px -222px; height: 80px; width: 84px;}
+.mu-icon-84x80-gear { background-position: -252px -222px; height: 80px; width: 84px;}
+.mu-icon-84x80-radar { background-position: -336px -222px; height: 80px; width: 84px;}

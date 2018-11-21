@@ -34,9 +34,25 @@
     line-height: 60px;
     font-size: 30px;
     color: #fff;
-    padding: 0 0 0 10px;
+    padding: 0 10px 0 10px;
     letter-spacing: 5px;
+    float: left;
 }
+
+#MuHeaderOption {
+    height: 60px;
+    padding: 18px 0 0 0;
+}
+
+    #MuHeaderOption .mu-icon {
+        cursor: pointer;
+        opacity: 0.6;
+        transition: opacity 0.5s;
+    }
+
+        #MuHeaderOption .mu-icon:hover {
+            opacity: 1;
+        }
 
 #MuBody {
     position: absolute;
@@ -56,6 +72,7 @@
     border-right: solid 1px #00517a;
     box-shadow: 0 0 10px #000000;
     z-index: 9;
+    transition: left 0.3s;
 }
 
 #MuTabView {
@@ -66,4 +83,13 @@
     bottom: 0;
     background-color: #eeeeee;
     z-index: 8;
+    transition: left 0.3s;
+}
+
+.mu-left {
+    left: -200px !important;
+}
+
+.mu-right {
+    left: 0 !important;
 }

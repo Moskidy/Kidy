@@ -15,5 +15,13 @@ namespace Mujiu.BizQuotation.Backend.Controllers
         {
             return View();
         }
+
+        #region 测试视图
+
+        public IActionResult Move() {
+            return View();
+        }
+
+        #endregion
     }
 }
