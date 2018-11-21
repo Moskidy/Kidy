@@ -1,5 +1,5 @@
 ﻿'use strict';
-$(function(){
+$(function () {
     let $SpanToggleSideBar = $('#SpanToggleSideBar');
     let isHidden = false;
     $SpanToggleSideBar.click(function () {

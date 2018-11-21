@@ -18,10 +18,11 @@ namespace Mujiu.BizQuotation.Backend.Controllers
 
         #region 测试视图
 
-        public IActionResult Move() {
+        public IActionResult Move()
+        {
             return View();
         }
 
-        #endregion
+        #endregion 测试视图
     }
 }
