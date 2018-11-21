@@ -1,0 +1,201 @@
+/* ******************************************************************************
+ * Title       : 图标样式表
+ * Project     : 重庆木九科技商务报价平台前端框架
+ * Version     : 1.0.0
+ * Date        : 2018年10月22日 星期一
+ * Developer   : 徐侃（Kidy）
+ * Description : 定义了系统可用的图标样式，该样式表和相应的Css Sprite图片
+                 由重庆木九科技前端优化工具生成
+ * ****************************************************************************** */
+
+.mu-icon-16-app,
+.mu-icon-16-briefcase,
+.mu-icon-16-bulb,
+.mu-icon-16-checked,
+.mu-icon-16-close,
+.mu-icon-16-code,
+.mu-icon-16-computer,
+.mu-icon-16-date,
+.mu-icon-16-delete,
+.mu-icon-16-desktop,
+.mu-icon-16-disk,
+.mu-icon-16-down,
+.mu-icon-16-download,
+.mu-icon-16-dustBin,
+.mu-icon-16-dwg,
+.mu-icon-16-earth,
+.mu-icon-16-eeplodingallocation,
+.mu-icon-16-email,
+.mu-icon-16-error,
+.mu-icon-16-exploding,
+.mu-icon-16-file,
+.mu-icon-16-folder,
+.mu-icon-16-gear,
+.mu-icon-16-grid,
+.mu-icon-16-group,
+.mu-icon-16-heart,
+.mu-icon-16-histogram,
+.mu-icon-16-home,
+.mu-icon-16-info,
+.mu-icon-16-key,
+.mu-icon-16-left,
+.mu-icon-16-list,
+.mu-icon-16-lock,
+.mu-icon-16-logoAccess,
+.mu-icon-16-logoAndroid,
+.mu-icon-16-logoChrome,
+.mu-icon-16-logoExcel,
+.mu-icon-16-logoFirefox,
+.mu-icon-16-logoIe,
+.mu-icon-16-logoPdf,
+.mu-icon-16-logoPpt,
+.mu-icon-16-logoWord,
+.mu-icon-16-magnifier,
+.mu-icon-16-man,
+.mu-icon-16-menuperson,
+.mu-icon-16-new,
+.mu-icon-16-ok,
+.mu-icon-16-orgnization,
+.mu-icon-16-pencil,
+.mu-icon-16-person,
+.mu-icon-16-pieChart,
+.mu-icon-16-printer,
+.mu-icon-16-property,
+.mu-icon-16-question,
+.mu-icon-16-refresh,
+.mu-icon-16-reload,
+.mu-icon-16-return,
+.mu-icon-16-right,
+.mu-icon-16-rss,
+.mu-icon-16-save,
+.mu-icon-16-speaker,
+.mu-icon-16-symbolMinus,
+.mu-icon-16-symbolPlus,
+.mu-icon-16-tabViewTagOpitionClose,
+.mu-icon-16-tabViewTagOpitionClose:hover,
+.mu-icon-16-transparent,
+.mu-icon-16-unlock,
+.mu-icon-16-up,
+.mu-icon-16-warning,
+.mu-icon-18-folder,
+.mu-icon-20-person,
+.mu-icon-24-list,
+.mu-icon-24-wrench,
+.mu-icon-32-refresh,
+.mu-icon-64-bulb,
+.mu-icon-64-error,
+.mu-icon-64-forbidden,
+.mu-icon-64-globe,
+.mu-icon-64-key,
+.mu-icon-64-lock,
+.mu-icon-64-magnifier,
+.mu-icon-64-ok,
+.mu-icon-64-question,
+.mu-icon-64-rss,
+.mu-icon-64-save,
+.mu-icon-64-shutdown,
+.mu-icon-64-star,
+.mu-icon-64-tab,
+.mu-icon-64-tabError,
+.mu-icon-64-warning,
+.mu-icon-84x80-code,
+.mu-icon-84x80-dataGather,
+.mu-icon-84x80-dataRearrange,
+.mu-icon-84x80-gear,
+.mu-icon-84x80-radar {background: transparent url(../../Image/Base/MuSpriteIcon.png) 0 0 no-repeat;display: inline-block;vertical-align: text-bottom;}
+
+.mu-icon-16-app { background-position: 0 0; height: 16px; width: 16px;}
+.mu-icon-16-briefcase { background-position: -16px 0; height: 16px; width: 16px;}
+.mu-icon-16-bulb { background-position: -32px 0; height: 16px; width: 16px;}
+.mu-icon-16-checked { background-position: -48px 0; height: 16px; width: 16px;}
+.mu-icon-16-close { background-position: -64px 0; height: 16px; width: 16px;}
+.mu-icon-16-code { background-position: -80px 0; height: 16px; width: 16px;}
+.mu-icon-16-computer { background-position: -96px 0; height: 16px; width: 16px;}
+.mu-icon-16-date { background-position: -112px 0; height: 16px; width: 16px;}
+.mu-icon-16-delete { background-position: -128px 0; height: 16px; width: 16px;}
+.mu-icon-16-desktop { background-position: -144px 0; height: 16px; width: 16px;}
+.mu-icon-16-disk { background-position: -160px 0; height: 16px; width: 16px;}
+.mu-icon-16-down { background-position: -176px 0; height: 16px; width: 16px;}
+.mu-icon-16-download { background-position: -192px 0; height: 16px; width: 16px;}
+.mu-icon-16-dustBin { background-position: -208px 0; height: 16px; width: 16px;}
+.mu-icon-16-dwg { background-position: -224px 0; height: 16px; width: 16px;}
+.mu-icon-16-earth { background-position: -240px 0; height: 16px; width: 16px;}
+.mu-icon-16-eeplodingallocation { background-position: -256px 0; height: 16px; width: 16px;}
+.mu-icon-16-email { background-position: -272px 0; height: 16px; width: 16px;}
+.mu-icon-16-error { background-position: -288px 0; height: 16px; width: 16px;}
+.mu-icon-16-exploding { background-position: -304px 0; height: 16px; width: 16px;}
+.mu-icon-16-file { background-position: -320px 0; height: 16px; width: 16px;}
+.mu-icon-16-folder { background-position: -336px 0; height: 16px; width: 16px;}
+.mu-icon-16-gear { background-position: -352px 0; height: 16px; width: 16px;}
+.mu-icon-16-grid { background-position: -368px 0; height: 16px; width: 16px;}
+.mu-icon-16-group { background-position: -384px 0; height: 16px; width: 16px;}
+.mu-icon-16-heart { background-position: -400px 0; height: 16px; width: 16px;}
+.mu-icon-16-histogram { background-position: -416px 0; height: 16px; width: 16px;}
+.mu-icon-16-home { background-position: -432px 0; height: 16px; width: 16px;}
+.mu-icon-16-info { background-position: -448px 0; height: 16px; width: 16px;}
+.mu-icon-16-key { background-position: -464px 0; height: 16px; width: 16px;}
+.mu-icon-16-left { background-position: -480px 0; height: 16px; width: 16px;}
+.mu-icon-16-list { background-position: -496px 0; height: 16px; width: 16px;}
+.mu-icon-16-lock { background-position: -512px 0; height: 16px; width: 16px;}
+.mu-icon-16-logoAccess { background-position: -528px 0; height: 16px; width: 16px;}
+.mu-icon-16-logoAndroid { background-position: -544px 0; height: 16px; width: 16px;}
+.mu-icon-16-logoChrome { background-position: -560px 0; height: 16px; width: 16px;}
+.mu-icon-16-logoExcel { background-position: -576px 0; height: 16px; width: 16px;}
+.mu-icon-16-logoFirefox { background-position: -592px 0; height: 16px; width: 16px;}
+.mu-icon-16-logoIe { background-position: -608px 0; height: 16px; width: 16px;}
+.mu-icon-16-logoPdf { background-position: -624px 0; height: 16px; width: 16px;}
+.mu-icon-16-logoPpt { background-position: 0 -16px; height: 16px; width: 16px;}
+.mu-icon-16-logoWord { background-position: -16px -16px; height: 16px; width: 16px;}
+.mu-icon-16-magnifier { background-position: -32px -16px; height: 16px; width: 16px;}
+.mu-icon-16-man { background-position: -48px -16px; height: 16px; width: 16px;}
+.mu-icon-16-menuperson { background-position: -64px -16px; height: 16px; width: 16px;}
+.mu-icon-16-new { background-position: -80px -16px; height: 16px; width: 16px;}
+.mu-icon-16-ok { background-position: -96px -16px; height: 16px; width: 16px;}
+.mu-icon-16-orgnization { background-position: -112px -16px; height: 16px; width: 16px;}
+.mu-icon-16-pencil { background-position: -128px -16px; height: 16px; width: 16px;}
+.mu-icon-16-person { background-position: -144px -16px; height: 16px; width: 16px;}
+.mu-icon-16-pieChart { background-position: -160px -16px; height: 16px; width: 16px;}
+.mu-icon-16-printer { background-position: -176px -16px; height: 16px; width: 16px;}
+.mu-icon-16-property { background-position: -192px -16px; height: 16px; width: 16px;}
+.mu-icon-16-question { background-position: -208px -16px; height: 16px; width: 16px;}
+.mu-icon-16-refresh { background-position: -224px -16px; height: 16px; width: 16px;}
+.mu-icon-16-reload { background-position: -240px -16px; height: 16px; width: 16px;}
+.mu-icon-16-return { background-position: -256px -16px; height: 16px; width: 16px;}
+.mu-icon-16-right { background-position: -272px -16px; height: 16px; width: 16px;}
+.mu-icon-16-rss { background-position: -288px -16px; height: 16px; width: 16px;}
+.mu-icon-16-save { background-position: -304px -16px; height: 16px; width: 16px;}
+.mu-icon-16-speaker { background-position: -320px -16px; height: 16px; width: 16px;}
+.mu-icon-16-symbolMinus { background-position: -336px -16px; height: 16px; width: 16px;}
+.mu-icon-16-symbolPlus { background-position: -352px -16px; height: 16px; width: 16px;}
+.mu-icon-16-tabViewTagOpitionClose { background-position: -368px -16px; height: 16px; width: 16px;}
+.mu-icon-16-tabViewTagOpitionClose:hover { background-position: -384px -16px; height: 16px; width: 16px;}
+.mu-icon-16-transparent { background-position: -400px -16px; height: 16px; width: 16px;}
+.mu-icon-16-unlock { background-position: -416px -16px; height: 16px; width: 16px;}
+.mu-icon-16-up { background-position: -432px -16px; height: 16px; width: 16px;}
+.mu-icon-16-warning { background-position: -448px -16px; height: 16px; width: 16px;}
+.mu-icon-18-folder { background-position: 0 -32px; height: 18px; width: 18px;}
+.mu-icon-20-person { background-position: 0 -50px; height: 20px; width: 20px;}
+.mu-icon-24-list { background-position: 0 -70px; height: 24px; width: 24px;}
+.mu-icon-24-wrench { background-position: -24px -70px; height: 24px; width: 24px;}
+.mu-icon-32-refresh { background-position: 0 -94px; height: 32px; width: 32px;}
+.mu-icon-64-bulb { background-position: 0 -126px; height: 64px; width: 64px;}
+.mu-icon-64-error { background-position: -64px -126px; height: 64px; width: 64px;}
+.mu-icon-64-forbidden { background-position: -128px -126px; height: 64px; width: 64px;}
+.mu-icon-64-globe { background-position: -192px -126px; height: 64px; width: 64px;}
+.mu-icon-64-key { background-position: -256px -126px; height: 64px; width: 64px;}
+.mu-icon-64-lock { background-position: -320px -126px; height: 64px; width: 64px;}
+.mu-icon-64-magnifier { background-position: -384px -126px; height: 64px; width: 64px;}
+.mu-icon-64-ok { background-position: -448px -126px; height: 64px; width: 64px;}
+.mu-icon-64-question { background-position: -512px -126px; height: 64px; width: 64px;}
+.mu-icon-64-rss { background-position: -576px -126px; height: 64px; width: 64px;}
+.mu-icon-64-save { background-position: 0 -190px; height: 64px; width: 64px;}
+.mu-icon-64-shutdown { background-position: -64px -190px; height: 64px; width: 64px;}
+.mu-icon-64-star { background-position: -128px -190px; height: 64px; width: 64px;}
+.mu-icon-64-tab { background-position: -192px -190px; height: 64px; width: 64px;}
+.mu-icon-64-tabError { background-position: -256px -190px; height: 64px; width: 64px;}
+.mu-icon-64-warning { background-position: -320px -190px; height: 64px; width: 64px;}
+.mu-icon-84x80-code { background-position: 0 -254px; height: 80px; width: 84px;}
+.mu-icon-84x80-dataGather { background-position: -84px -254px; height: 80px; width: 84px;}
+.mu-icon-84x80-dataRearrange { background-position: -168px -254px; height: 80px; width: 84px;}
+.mu-icon-84x80-gear { background-position: -252px -254px; height: 80px; width: 84px;}
+.mu-icon-84x80-radar { background-position: -336px -254px; height: 80px; width: 84px;}
