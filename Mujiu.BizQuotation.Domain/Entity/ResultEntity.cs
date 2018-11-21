@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Mujiu.BizQuotation.Domain.Entity
+﻿namespace Mujiu.BizQuotation.Domain.Entity
 {
     /// <summary>
     /// 返回结果实体类
@@ -29,7 +25,8 @@ namespace Mujiu.BizQuotation.Domain.Entity
     /// 返回结果泛型类
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public class ResultEntity<T> : ResultEntity {
+    public class ResultEntity<T> : ResultEntity
+    {
         public T Data { get; set; }
     }
 }
