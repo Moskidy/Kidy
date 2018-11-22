@@ -75,16 +75,78 @@
     transition: left 0.3s;
 }
 
-#MuTabView {
+#MuUserInfo {
+    position:absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    height:80px;
+}
+
+#MuUserAvatar {
+    width: 80px;
+    height: 80px;
+    padding: 15px 0 0 15px;
+    float: left;
+}
+
+    #MuUserAvatar .mu-avatar {
+        width: 50px;
+        height: 50px;
+        border: solid 1px #FFFFFF;
+        border-radius: 10px;
+    }
+
+#MuUserNickname {
+    height: 40px;
+    line-height: 60px;
+    color: #FFF;
+}
+#MuUserPosition {
+    height: 30px;
+    line-height: 30px;
+    color: #aaa;
+}
+
+#MuMainMenu {
     position: absolute;
-    top: 0;
-    left: 200px;
+    left:0;
     right: 0;
     bottom: 0;
-    background-color: #eeeeee;
-    z-index: 8;
-    transition: left 0.3s;
+    top: 80px;
+    overflow: auto;
 }
+
+.mu-mainMenu {
+    width: 100%;
+}
+
+.mu-mainMenu-bar {
+    height: 42px;
+    line-height: 42px;
+    padding: 0 0 0 20px;
+    cursor: pointer;
+    border-left: solid 4px #146aa2;
+    transition: all 0.5s;
+}
+    .mu-mainMenu-bar:hover {
+        border-left: solid 4px #00517a;
+        background-color: #2147db;
+    }
+    .mu-mainMenu-bar .mu-text {
+        color: #ffffff;
+    }
+
+    #MuTabView {
+        position: absolute;
+        top: 0;
+        left: 200px;
+        right: 0;
+        bottom: 0;
+        background-color: #eeeeee;
+        z-index: 8;
+        transition: left 0.3s;
+    }
 
 .mu-left {
     left: -200px !important;
