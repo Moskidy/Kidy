@@ -1,11 +1,29 @@
-﻿@{
-    Layout = null;
-}<!DOCTYPE html>
+﻿@{Layout = null;}<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    <title>电跑跑商务报价平台 - 重庆木九科技有限公司</title>
+    <link type="text/css" rel="stylesheet" href="~/lib/bootstrap/css/bootstrap-reboot.min.css" />
+    <link type="text/css" rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="~/css/Login/Index.css" />
+    <script type="text/javascript" src="~/lib/jquery/jquery-3.3.1.min.js"></script>
 </head>
 <body>
+    <div id="BgContainerWrapper"><div id="BgContainer"></div></div>
+    <div id="PanelLoginWrapper">
+        <div id="PanelLoginBg"></div>
+        <div id="PanelLogin">
+            <div id="PanelLoginHeader"></div>
+            <div id="PanelLoginBody">
+                <label>用户名：</label>
+                <input type="text" id="TxtUsername" name="username" /><br />
+                <label>密码：</label>
+                <input type="password" id="TxtPassword" name="password" /><br />
+                <button type="button" id="BtnLogin">登录</button>
+            </div>
+            <div id="PanelLoginFooter"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="~/js/Module/Login/Index.js"></script>
 </body>
 </html>

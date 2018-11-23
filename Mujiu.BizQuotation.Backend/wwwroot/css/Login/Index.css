@@ -1,0 +1,34 @@
+﻿html, body, #BgContainerWrapper {
+    width: 100%;
+    height: 100%;
+}
+
+#PanelLoginWrapper {
+    width: 400px;
+    height: 300px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    margin: -150px 0 0 -200px;
+}
+
+#PanelLoginBg {
+    background-color: #fff;
+    border: solid 1px gray;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.75;
+    z-index: 10;
+}
+#PanelLogin {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 11;
+}

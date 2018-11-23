@@ -592,16 +592,16 @@ var _muFramework_ = {
 
         dom._muInitialize_();
         setting._muInitialize_(options);
-        component._muUiTabView_._muInitialize_();
-        component._muUiTabView_._addTabItem_({
-            id: 'MuMyHomePage'
-            , icon: 'desktop'
-            , text: '我的首页'
-            , isIframe: true
-            , isClosable: false
-            , src: '/Framework/Test/'
-        });
-        dom._muLoadingWrapper_._muFadeOut_();
+        //component._muUiTabView_._muInitialize_();
+        //component._muUiTabView_._addTabItem_({
+        //    id: 'MuMyHomePage'
+        //    , icon: 'desktop'
+        //    , text: '我的首页'
+        //    , isIframe: true
+        //    , isClosable: false
+        //    , src: '/Framework/Test/'
+        //});
+        dom._muLoading_._muFadeOut_();
     }
 };
 
