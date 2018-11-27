@@ -140,7 +140,6 @@
     .mu-mainMenu-bar.on {
         border-left: solid 4px #4CAF50;
         background-color: #025b80;
-        cursor: default;
     }
 
     .mu-mainMenu-bar .mu-text {
