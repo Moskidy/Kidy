@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Mujiu.BizQuotation.Domain\Mujiu.BizQuotation.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -10,4 +10,10 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.6" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Mujiu.BizQuotation.Common\Mujiu.BizQuotation.Common.csproj" />
+    <ProjectReference Include="..\Mujiu.BizQuotation.Domain\Mujiu.BizQuotation.Domain.csproj" />
+    <ProjectReference Include="..\Mujiu.BizQuotation.Repository\Mujiu.BizQuotation.Repository.csproj" />
+  </ItemGroup>
+
 </Project>

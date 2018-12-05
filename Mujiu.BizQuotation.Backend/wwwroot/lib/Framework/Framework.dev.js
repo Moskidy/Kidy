@@ -31,7 +31,8 @@ var _muFramework_ = {
         , _muWrapper_: null//整体包裹器
         , _muHeader_: null//头部包裹器
         , _muBody_: null//身体包裹器
-        , _muSideBar_: null//主菜单包裹器
+        , _muSideBar_: null//侧栏包裹器
+        , _muMainMenu_: null//主菜单包裹器
         , _muTabView_: null//内容包裹器
         , _muLoading_: null//加载包裹器
         , _muInitialize_: function () {
@@ -42,6 +43,7 @@ var _muFramework_ = {
             dom._muHeaderWrapper_ = $('#MuHeader');
             dom._muBodyWrapper_ = $('#MuBody');
             dom._muSideBar_ = $('#MuSideBar');
+            dom._muMainMenu_ = $('#MuMainMenu');
             dom._muTabView_ = $('#MuTabView');
             dom._muLoading_ = $('#MuLoading');
         }
@@ -432,6 +434,27 @@ var _muFramework_ = {
             }
         }
         // ======================================================================
+        // 主菜单 MainMenu
+        // ======================================================================
+        , _muUiMainMenu_: {
+            // ==================================================================
+            // 初始化方法
+            // ==================================================================
+            _muInitialize_: function (jsonData) {
+                var dom = _muFramework_._muDom_;
+                //dom._muMainMenu_.empty();
+                if (jsonData == null || jsonData.length == 0) {
+                    return;
+                }
+
+                for (var i = 0, len = jsonData.length; i < len; i++) {
+                    var $firstNode = $('<div class="mu-mainMenu"><div class="mu-mainMenu-bar"><i class= "mu-icon mu-icon-16-folder"></i><span class="mu-text">' + jsonData[i].title + '</span></div ></div >');
+                    dom._muMainMenu_.append($firstNode);
+                }
+
+            }
+        }
+        // ======================================================================
         // 上下文菜单 ContextMenu
         // ======================================================================
         , _muUiContextMenu_: function () { }
@@ -592,6 +615,19 @@ var _muFramework_ = {
 
         dom._muInitialize_();
         setting._muInitialize_(options);
+        _muFramework_._muHttp_._muHttpPost_({
+            url: '/Framework/GetMainMenu/',
+            done: function (jsonData) {
+                if (jsonData.isSuccess) {
+                    component._muUiMainMenu_._muInitialize_(jsonData.dataList);
+                    return;
+                }
+                alert(jsonData.message)
+            },
+            always: function () {
+                dom._muLoading_._muFadeOut_();
+            }
+        });
         //component._muUiTabView_._muInitialize_();
         //component._muUiTabView_._addTabItem_({
         //    id: 'MuMyHomePage'
@@ -601,7 +637,7 @@ var _muFramework_ = {
         //    , isClosable: false
         //    , src: '/Framework/Test/'
         //});
-        dom._muLoading_._muFadeOut_();
+
     }
 };
 
